@@ -1,0 +1,183 @@
+$color_1: #404d6f;
+$color_2: #8b8c91;
+$color_3: #fbf7ff;
+$color_4: #0a0f0d;
+$font_family_1: Montserrat;
+$background_color_1: #ffffff;
+$background_color_2: #06e278;
+$border_color_1: #ffffff;
+
+/*
+This is a Cascading Style Sheet (CSS).
+It describes rules for styling your HTML markup.
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+Created on : 19 Feb, 2019, 8:16:01 AM
+Author     : Praveen BadBoy17G
+*/
+/*.set1
+{
+  margin-left: 23%;
+ margin-bottom: 49px;
+margin-top: 7%;
+}
+
+.set4
+{
+margin-top: 23%;
+margin-bottom: 72px;
+margin-left: 62%;
+}
+.set7
+{
+  margin-left: 23%;
+  margin-top: 3%;
+}
+.set10
+{
+  margin-left: 23%;
+  margin-top: 3%;
+}
+.set2
+{
+margin-left: 14%;
+margin-top: 12%;
+}
+.set3
+{
+    margin-top: 12%;
+   
+}
+.set6{
+    margin-right: 122px;
+}*/
+.Newbie {
+	width: 190px;
+	height: 54px;
+	border-radius: 30px;
+	border: 1px solid #70707000;
+	margin-top: 29px;
+}
+.Leader {
+	margin-left: 55%;
+	margin-top: 6%;
+	border-radius: 4%;
+	width: 40%;
+	height: 50%;
+	border-radius: 30px;
+	border: 1px solid #70707000;
+}
+.arrow1 {
+	width: 61px;
+	margin-left: 0px;
+	margin-right: 23px;
+	margin-bottom: 3px;
+	width: 30px;
+}
+.newb {
+	left: -15px;
+	top: 12px;
+	width: 84px;
+	height: 20px;
+	color: $color_1;
+	font-family: $font_family_1;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 2.24px;
+	text-transform: uppercase;
+}
+.concept1 {
+	color: $color_2;
+	font-family: $font_family_1;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1.15px;
+	line-height: 44px;
+	width: 440px;
+	height: 54px;
+	box-shadow: 0 0 16px rgba(133, 20, 232, 0.11);
+	border-radius: 12px;
+	background-color: $background_color_1;
+	margin-top: 30px;
+	border-color: $border_color_1;
+}
+.rb1 {
+	margin-top: 94px;
+	margin-bottom: 8%;
+	margin-left: 23%;
+}
+.rb4 {
+	margin-bottom: 8%;
+	margin-top: 49px;
+	margin-left: 23%;
+}
+.rb7 {
+	margin-bottom: 8%;
+	margin-top: 49px;
+	margin-left: 23%;
+}
+.rb10 {
+	margin-bottom: 8%;
+	margin-top: 49px;
+	margin-left: 23%;
+}
+.p1_1 {
+	margin-left: 121%;
+	width: 70px;
+	height: 71px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	border: 4px solid #fbf7ff;
+	background-color: $background_color_2;
+	top: 156px;
+	border-radius: 50%;
+}
+.p1 {
+	margin-top: -88px;
+	width: 70px;
+	height: 71px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	border: 4px solid #fbf7ff;
+	background-color: $background_color_2;
+	margin-left: 287px;
+	border-radius: 50%;
+}
+.P1 {
+	width: 29px;
+	height: 27px;
+	color: $color_3;
+	font-family: $font_family_1;
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 3.08px;
+	text-transform: uppercase;
+	margin-left: 18px;
+	margin-top: 17px;
+}
+.Progress {
+	margin-left: -21%;
+	margin-top: 15%;
+}
+.d1 {
+	width: 0;
+	height: 140px;
+	border: 3px solid #707070;
+	opacity: 0.12;
+	margin-bottom: 49%;
+	margin-left: 320px;
+}
+.pts {
+	margin-left: 374px;
+	width: 106px;
+	height: 26px;
+	color: $color_4;
+	font-family: $font_family_1;
+	font-size: 21px;
+	font-weight: 600;
+	letter-spacing: 2.94px;
+}

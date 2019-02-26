@@ -1,0 +1,266 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Feb, 2019, 3:26:01 PM
+    Author     : Praveen G
+*/
+
+$color_1: #444;
+$color_2: #ffffff;
+$color_3: #dcdcdc;
+$color_4: #fbf7ff;
+$color_5: #dedbe2;
+$color_6: #c4c4c4;
+$font_family_1: "Open Sans", sans-serif;
+$font_family_2: Montserrat;
+$background_color_1: white;
+$background_color_2: #353535;
+$background_color_3: transparent;
+$border_color_1: #353535;
+
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700";
+@import "https://fonts.googleapis.com/css?family=Merriweather:400,700";
+body {
+	background-color: $background_color_1;
+	font-family: $font_family_1;
+	padding: 5px 25px;
+	font-size: 18px;
+	margin: 0;
+	color: $color_1;
+}
+.bg {
+	width: 500px;
+	height: 320px;
+	box-shadow: 0 0 24px rgba(133, 20, 232, 0.11);
+	border-radius: 12px;
+	background-image: linear-gradient(180deg, #474747 0%, #000000 100%);
+	margin-top: 30px;
+}
+.dimigo {
+	margin-left: 32px;
+	width: 226px;
+	height: 50px;
+	border-radius: 8px;
+	background-image: linear-gradient(to right, #a9ffa9 0%, #11ffbd 100%);
+	margin-top: -23px;
+}
+.set {
+	width: 50%px;
+	height: 26px;
+	color: $color_2;
+	font-family: $font_family_2;
+	font-size: 21px;
+	font-weight: 600;
+	letter-spacing: 2.94px;
+	text-transform: uppercase;
+	margin-left: 16px;
+	margin-top: 8px;
+}
+.lock {
+	padding-left: 78px;
+	padding-bottom: 8px;
+	margin-left: 4px;
+}
+.score {
+	width: 100%;
+	padding-left: 15em;
+	height: 26px;
+	color: $color_3;
+	font-family: $font_family_2;
+	font-size: 21px;
+	font-weight: 600;
+	letter-spacing: 2.94px;
+}
+.Ques {
+	width: 59px;
+	height: 55px;
+	color: $color_4;
+	font-family: $font_family_2;
+	font-size: 44px;
+	font-weight: 600;
+	letter-spacing: 6.16px;
+	margin-left: 71px;
+}
+.s1 {
+	width: 76px;
+	height: 0;
+	border: 1px solid #707070;
+	margin-top: 33px;
+	margin-left: 25px;
+}
+.ans {
+	width: 32px;
+	height: 55px;
+	color: $color_4;
+	font-family: $font_family_2;
+	font-size: 44px;
+	font-weight: 600;
+	letter-spacing: 6.16px;
+	margin-left: 26px;
+}
+.b_img {
+	margin-left: 68px;
+	margin-top: 15px;
+}
+.questions {
+	height: 20px;
+	color: $color_3;
+	font-family: $font_family_2;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 2.24px;
+	margin-left: 52px;
+	margin-top: -31px;
+}
+.start {
+	width: 170px;
+	height: 36px;
+	border-radius: 33px;
+	background-color: $background_color_2;
+	border-color: $border_color_1;
+}
+.lstart {
+	width: 73px;
+	height: 22px;
+	color: $color_5;
+	font-family: $font_family_2;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 2.52px;
+	text-transform: uppercase;
+}
+.butt {
+	margin-top: 16px;
+	padding-left: 293px;
+}
+.arrow {
+	margin-left: 4px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	padding-top: 2px;
+}
+.con {
+	margin-left: 42px;
+	width: 100%;
+	height: 16px;
+	color: $color_3;
+	font-family: $font_family_2;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1.68px;
+}
+.sep2 {
+	width: 464px;
+	height: 0;
+	border: 1px solid #707070;
+	opacity: 0.5;
+	margin-left: 42px;
+	width: 84%;
+}
+.tags_butt {
+	margin-top: 7px;
+	margin-left: 37px;
+	margin-bottom: 0px;
+	margin-right: 28px;
+}
+.tags_butt1 {
+	width: 104px;
+	height: 24px;
+	border-radius: 33px;
+	border: 1px solid #707070;
+	background-color: $background_color_3;
+	color: $color_6;
+	font-family: $font_family_2;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1.68px;
+}
+.tags_butt2 {
+	width: 104px;
+	height: 24px;
+	border-radius: 33px;
+	border: 1px solid #707070;
+	background-color: $background_color_3;
+	color: $color_6;
+	font-family: $font_family_2;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1.68px;
+}
+.tags_butt3 {
+	width: 104px;
+	height: 24px;
+	border-radius: 33px;
+	border: 1px solid #707070;
+	background-color: $background_color_3;
+	color: $color_6;
+	font-family: $font_family_2;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1.68px;
+}
+.tags_butt4 {
+	width: 104px;
+	height: 24px;
+	border-radius: 33px;
+	border: 1px solid #707070;
+	background-color: $background_color_3;
+	color: $color_6;
+	font-family: $font_family_2;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1.68px;
+}
+.tags_butt5 {
+	width: 104px;
+	height: 24px;
+	border-radius: 33px;
+	border: 1px solid #707070;
+	background-color: $background_color_3;
+	color: $color_6;
+	font-family: $font_family_2;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1.68px;
+}
+.tags_butt6 {
+	width: 40%;
+	height: 24px;
+	border-radius: 33px;
+	border: 1px solid #707070;
+	background-color: $background_color_3;
+	color: $color_6;
+	font-family: $font_family_2;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1.68px;
+}
+.tags_butt7 {
+	width: 104px;
+	height: 24px;
+	border-radius: 33px;
+	border: 1px solid #707070;
+	background-color: $background_color_3;
+	color: $color_6;
+	font-family: $font_family_2;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1.68px;
+}
+.connector1 {
+	width: 227px;
+	height: 277px;
+	border: 8px solid #e7dcf2;
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+}
+.set3 {
+	margin-top: 16%;
+}
+.set2 {
+	margin-top: 16%;
+}
